@@ -7,9 +7,9 @@
         <meta name="author" content="Piulres" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Spectral:200" rel="stylesheet">      
         <link href="https://fonts.googleapis.com/css?family=Kanit:700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="css/revealer.css" />
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />       
+        <link rel="stylesheet" type="text/css" href="public/css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="public/css/revealer.css" />
+        <link rel="stylesheet" type="text/css" href="public/css/demo.css" />       
         <script>document.documentElement.className = 'js';</script>
     </head>
     <body class="demo-1 loading">
@@ -23,7 +23,7 @@
             <div class="content content--intro">
                 <div class="content__inner">
                     <h2 class="introhome content__title">Ranieri</br>Full</br>Casting</h2>
-                    <a href="#" class="enter">enter</a>                 
+                    <a href="#" class="enter">entrar</a>                 
                 </div>
                 <div class="shape-wrap">
                     <svg class="shape" width="100%" height="100vh" preserveAspectRatio="none" viewBox="0 0 1440 800">
@@ -41,6 +41,7 @@
                         <li><a href="#">Contato</a></li>
                         @if (Auth::check())
                             <li><a href="/admin/home">Painel</a></li>
+                            <li><a href="/logout">Logout</a></li>
                         @else
                             <li><a href="/login">Login</a></li>
                         @endif
@@ -121,12 +122,12 @@
             </div>
         </main>
             
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/charming.min.js"></script>
-        <script src="js/anime.min.js"></script>
-        <script src="js/revealer.js"></script>
-        <script src="js/morphing_page_transition.js"></script>
-        <script src="js/grid_layout_slideshow.js"></script>
+        <script src="public/js/imagesloaded.pkgd.min.js"></script>
+        <script src="public/js/charming.min.js"></script>
+        <script src="public/js/anime.min.js"></script>
+        <script src="public/js/revealer.js"></script>
+        <script src="public/js/morphing_page_transition.js"></script>
+        <script src="public/js/grid_layout_slideshow.js"></script>
 
         <script>
         {
