@@ -185,6 +185,7 @@ return [
         Yajra\DataTables\DataTablesServiceProvider::class,
         Yajra\Datatables\DatatablesServiceProvider::class,
         Unisharp\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
+        Laravel\Socialite\SocialiteServiceProvider::class,
         
         /*
          * Application Service Providers...
@@ -249,9 +250,15 @@ return [
         'Image'        => Intervention\Image\Facades\Image::class,
         'Form'         => Collective\Html\FormFacade::class,
         'Html'         => Collective\Html\HtmlFacade::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         
     ],
 
-    
+    'languages' => [
+        'en' => 'English',
+        'es' => 'Spanish',
+        'pt' => 'Brazilian Portuguese',
+        'de' => 'German',
+    ],
 
 ];
