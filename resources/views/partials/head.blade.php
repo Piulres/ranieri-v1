@@ -55,11 +55,14 @@
 
 <style type="text/css">
       .content, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Nunito', sans-serif!important; } 
-      li a span, a, a:hover, a:active { font-family: 'Nunito', sans-serif; color: #fff; }
+      li a span, a { font-family: 'Nunito', sans-serif; color: #333; }
+      .sidebar li a span, .sidebar a { font-family: 'Nunito', sans-serif; color: #fff; }
+      li a span:hover, li a span:active, a:hover, a:active { color: #008d4c; }
       div.dt-buttons { margin: -6px 10px -6px 25px; }
+      .msg a, .msg a:hover, .msg a:active { color: #555; }
       .main-header .logo { font-family: 'Nunito', sans-serif; }
       .sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini { color: transparent; }
-      button.dt-button, div.dt-button, a.dt-button {
+      button.dt-button, div.dt-button, a.dt-button, .btn-primary {
       background-image: none!important;
       background-color: #00a65a!important;
       border: 1px solid #008d4c!important;

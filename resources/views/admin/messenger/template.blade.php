@@ -4,7 +4,7 @@
 
     <h2 style="margin-top:0px;">@yield('title')</h2>
 
-    <div class="row" style="margin-top:15px;">
+    <div class="msg row" style="margin-top:15px;">
 
         {{--Sidebar--}}
         <div class="col-sm-3 col-xs-12">
