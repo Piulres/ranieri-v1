@@ -762,3 +762,18 @@ h2.grid__item, h3.grid__item, p.grid__item {
     color: var(--color-link-hover);
     outline: none;
 }
+
+
+/* screen > 1024*/
+@media only screen and (min-width : 1025px) {
+    .grid__item {
+	}
+}
+
+/* screen < 1024*/
+@media only screen and (max-width : 1024px) {
+    .grid__item {
+	    transform: none!important;
+	}
+}
+
